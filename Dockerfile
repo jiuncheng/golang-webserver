@@ -6,4 +6,7 @@ COPY . .
 RUN go mod download
 RUN go build main.go
 
+EXPOSE 443
+EXPOSE 80
+
 CMD ["./main"]
