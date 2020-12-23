@@ -57,7 +57,7 @@ func main() {
 
 	srv := &http.Server{
 		Handler:      r,
-		Addr:         ":443",
+		Addr:         ":80",
 		WriteTimeout: 10 * time.Second,
 		ReadTimeout:  10 * time.Second,
 	}
